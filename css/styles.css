@@ -204,6 +204,7 @@ body {
 .team-list {
   display: flex;
 }
+
 .team-item {
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -213,8 +214,9 @@ body {
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
-.team-img {
-  margin-bottom: 30px;
+.team-names {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .team-subtitle {
   margin-bottom: 10px;
@@ -227,8 +229,6 @@ body {
   text-align: center;
 }
 .team-description {
-  margin-bottom: 30px;
-
   color: var(--primary-text-color);
 
   font-weight: 400;
